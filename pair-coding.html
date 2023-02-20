@@ -22,5 +22,19 @@
       <p>0</p>
     </div>
   </div>
+
+  <script>
+    let a = document.getElementsByTagName("p");
+    let h2 = document.getElementsByTagName("h2");
+    let mil = a[0].innerText;
+    let coka = a[1].innerText;
+    let milh2 = h2[0].innerText;
+    let cokah2 = h2[1].innerText;
+    if (mil > coka) {
+      console.log(milh2+"이 "+(mil-coka)+"원 비싸다")
+    } else {
+      console.log(cockh2+"이 "+(coka-mil)+"원 비싸다")
+    }
+  </script>
 </body>
 </html>
