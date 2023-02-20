@@ -24,17 +24,9 @@
   </div>
 
   <script>
-    let a = document.getElementsByTagName("p");
-    let h2 = document.getElementsByTagName("h2");
-    let mil = a[0].innerText;
-    let coka = a[1].innerText;
-    let milh2 = h2[0].innerText;
-    let cokah2 = h2[1].innerText;
-    if (mil > coka) {
-      console.log(milh2+"이 "+(mil-coka)+"원 비싸다")
-    } else {
-      console.log(cockh2+"이 "+(coka-mil)+"원 비싸다")
-    }
+    let a = document.getElementById('root').children[1].children[1].innerText;
+    let b = document.getElementById('root').children[2].children[1].innerText;
+    console.log(b-a)
   </script>
 </body>
 </html>
